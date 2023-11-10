@@ -133,7 +133,7 @@
   height: 273px;
 }
 
-.recipes_video-caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
 }
