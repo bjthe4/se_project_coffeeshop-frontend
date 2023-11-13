@@ -158,6 +158,10 @@
   align-items: center;
 }
 
+.reservation {
+  margin: 0 auto;
+}
+
 .reservation__form {
   margin: 0 auto;
 }
