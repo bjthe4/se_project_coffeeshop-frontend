@@ -18,7 +18,13 @@
   height: 39px;
 }
 
-.footer__list {
+.footer__social-heading {
+  margin: 0 0 20px;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+}
+
+.footer .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -26,36 +32,33 @@
 
 .footer__list-item {
   margin: 0 0 16px;
-  font-family: "Inter, Arial, sans-serif";
-
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-
-  font-weight: normal;
-
+  font-weight: ormal;
   font-size: 16px;
-
   line-height: 20px;
 }
 
-.footer__list-item {
+.footer__list-item:last-of-type {
   margin-bottom: 0;
 }
 
-.footer__column-heading {
+/*.footer__column-heading {
   margin-bottom: 20px;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   margin-top: 0;
-}
+}*/
 
 .footer__social-link {
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition: color 0.3s ease-in-out;
 }
 
 .footer__social-icon {
@@ -66,7 +69,7 @@
 
 .footer__copyright {
   margin: 108px 0 0;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

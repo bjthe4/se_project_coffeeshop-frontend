@@ -22,13 +22,16 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  z-index: 1;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav__link:hover {
   color: #2f80ed;
+  z-index: 1;
 }

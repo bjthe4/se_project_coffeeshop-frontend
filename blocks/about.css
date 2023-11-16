@@ -12,7 +12,7 @@
   z-index: 1;
   max-width: 251px;
   color: #fff;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -28,7 +28,7 @@
   max-width: 660px;
   color: #fff;
   gap: 20px;
-  font-family: "Noto Serif, Times New Roman, generic serif";
+  font-family: "Noto Serif", Times New Roman, generic serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

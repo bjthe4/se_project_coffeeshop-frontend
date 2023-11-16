@@ -1,7 +1,7 @@
 .menu__title {
   text-align: center;
   margin: 0 0 24px;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -11,12 +11,13 @@
 .menu {
   padding: 100px 0 100px;
   background-color: #fff;
+  background-image: url(../images/background_menu.svg);
 }
 
 .menu__subtitle {
   text-align: center;
   margin: 0 auto 100px;
-  font-family: "Noto Serif, Times New Roman, generic serif";
+  font-family: "Noto Serif", Times New Roman, generic serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
