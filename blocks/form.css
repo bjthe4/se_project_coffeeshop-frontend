@@ -12,7 +12,6 @@
 
 .form__fieldset {
   padding: 0;
-  margin-bottom: 32px;
   border: none;
 }
 
@@ -30,7 +29,7 @@
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 32px;
+  margin: 32px 0 0;
 }
 
 .form__input {
@@ -43,10 +42,11 @@
   border-style: solid;
   border-color: #838383;
   margin-top: 8px;
+  max-width: 385px;
 }
 
 .form__input::placeholder {
-  max-width: 385px;
+  /* max-width: 385px;*/
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -70,6 +70,7 @@
   font-size: 16px;
   line-height: 20px;
   transition: opacity 0.3s ease-in-out;
+  max-width: 385px;
 }
 
 .form__button:hover {

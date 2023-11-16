@@ -6,7 +6,7 @@
 .nav__logo {
   position: relative;
   left: -0.5px;
-  top: 30px;
+  margin: 0;
   width: 105px;
   height: 39px;
 }
@@ -14,7 +14,7 @@
 .nav__links {
   list-style-type: none;
   padding: 0;
-  margin: 8px 0 0;
+  margin: 0;
   display: flex;
   gap: 20px;
 }

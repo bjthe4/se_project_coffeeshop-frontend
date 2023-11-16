@@ -22,6 +22,8 @@
   margin: 0 0 20px;
   font-family: "inter", sans-serif;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer .footer__list {
@@ -34,7 +36,7 @@
   margin: 0 0 16px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: ormal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
